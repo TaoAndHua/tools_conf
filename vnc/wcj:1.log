@@ -1,0 +1,200 @@
+
+Xvnc Free Edition 4.1.1 - built Nov 18 2014 16:07:18
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Mon Mar 21 18:54:30 2016
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5901
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+/home/noah/.vnc/xstartup: 15: /home/noah/.vnc/xstartup: gnome-settings-deamon: not found
+Option "--login" is no longer supported in this version of gnome-terminal; you might want to create a profile with the desired setting, and use the new '--profile' option
+Window manager warning: Log level 32: could not find XKB extension.
+
+(nautilus:29345): Gtk-WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+Mon Mar 21 18:54:37 2016
+ Connections: accepted: 0.0.0.0::52205
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+(gnome-terminal:29341): GLib-GIO-CRITICAL **: g_settings_get: the format string may not contain '&' (key 'monospace-font-name' from schema 'org.gnome.desktop.interface'). This call will probably stop working with a future version of glib.
+
+Mon Mar 21 18:54:40 2016
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian bgr888
+ VNCSConnST:  Client pixel format depth 8 (8bpp) colour-map
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+Window manager warning: Log level 8: Source ID 808 was not found when attempting to remove it
+Window manager warning: Log level 8: Source ID 1794 was not found when attempting to remove it
+Window manager warning: Log level 8: Source ID 2140 was not found when attempting to remove it
+Window manager warning: Log level 8: Source ID 2197 was not found when attempting to remove it
+Window manager warning: Log level 8: Source ID 2505 was not found when attempting to remove it
+Window manager warning: Log level 8: Source ID 2518 was not found when attempting to remove it
+Window manager warning: Log level 8: Source ID 2640 was not found when attempting to remove it
+Window manager warning: Log level 8: Source ID 2644 was not found when attempting to remove it
+Window manager warning: Log level 8: Source ID 3138 was not found when attempting to remove it
+Window manager warning: Log level 8: Source ID 3176 was not found when attempting to remove it
+Window manager warning: Log level 8: Source ID 3219 was not found when attempting to remove it
+
+Mon Mar 21 23:16:09 2016
+ Connections: closed: 0.0.0.0::52205 (read: Connection timed out (110))
+ SMsgWriter:  framebuffer updates 8664
+ SMsgWriter:    copyRect rects 5539, bytes 88624
+ SMsgWriter:    hextile rects 69794, bytes 85961233
+ SMsgWriter:    ZRLE rects 2, bytes 60960
+ SMsgWriter:    raw bytes equivalent 867541308, compression ratio 10.085087
+
+Tue Mar 22 09:37:52 2016
+ Connections: accepted: 0.0.0.0::1313
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian bgr888
+ VNCSConnST:  Client pixel format depth 8 (8bpp) colour-map
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Window manager warning: Log level 8: Source ID 3385 was not found when attempting to remove it
+Window manager warning: Log level 8: Source ID 3461 was not found when attempting to remove it
+
+Tue Mar 22 10:58:38 2016
+ XserverDesktop: Added unknown keysym 0xffeb to keycode 255
+Window manager warning: Log level 8: Source ID 3830 was not found when attempting to remove it
+
+Tue Mar 22 15:53:57 2016
+ Connections: accepted: 0.0.0.0::21864
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian bgr888
+
+Tue Mar 22 15:53:58 2016
+ VNCSConnST:  Client pixel format depth 8 (8bpp) colour-map
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Tue Mar 22 15:57:35 2016
+ Connections: closed: 0.0.0.0::21864 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 44
+ SMsgWriter:    hextile rects 96, bytes 9434687
+ SMsgWriter:    ZRLE rects 2, bytes 59753
+ SMsgWriter:    raw bytes equivalent 21729008, compression ratio 2.288603
+
+Tue Mar 22 16:10:17 2016
+ Connections: closed: 0.0.0.0::1313 (read: Connection timed out (110))
+ SMsgWriter:  framebuffer updates 10427
+ SMsgWriter:    copyRect rects 5666, bytes 90656
+ SMsgWriter:    hextile rects 63722, bytes 92169450
+ SMsgWriter:    ZRLE rects 2, bytes 39505
+ SMsgWriter:    raw bytes equivalent 659981972, compression ratio 7.157461
+
+Wed Mar 23 14:18:01 2016
+ Connections: accepted: 0.0.0.0::3974
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Wed Mar 23 14:18:05 2016
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian bgr888
+ VNCSConnST:  Client pixel format depth 8 (8bpp) colour-map
+
+Wed Mar 23 14:18:06 2016
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+(gnome-terminal:11925): GLib-GIO-CRITICAL **: g_settings_get: the format string may not contain '&' (key 'monospace-font-name' from schema 'org.gnome.desktop.interface'). This call will probably stop working with a future version of glib.
+Window manager warning: Log level 8: Source ID 5051 was not found when attempting to remove it
+
+Wed Mar 23 21:31:45 2016
+ Connections: closed: 0.0.0.0::3974 (read: Connection timed out (110))
+ SMsgWriter:  framebuffer updates 755
+ SMsgWriter:    copyRect rects 152, bytes 2432
+ SMsgWriter:    hextile rects 2297, bytes 13354001
+ SMsgWriter:    ZRLE rects 2, bytes 59685
+ SMsgWriter:    raw bytes equivalent 83101348, compression ratio 6.195266
+
+Thu Mar 24 10:10:43 2016
+ Connections: accepted: 0.0.0.0::37961
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Mar 24 10:10:46 2016
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian bgr888
+ VNCSConnST:  Client pixel format depth 8 (8bpp) colour-map
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Window manager warning: Log level 8: Source ID 5197 was not found when attempting to remove it
+
+Thu Mar 24 15:20:39 2016
+ Connections: accepted: 0.0.0.0::55941
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Mar 24 15:20:42 2016
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian bgr888
+ VNCSConnST:  Client pixel format depth 8 (8bpp) colour-map
+
+Thu Mar 24 15:20:45 2016
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Window manager warning: Log level 8: Source ID 5302 was not found when attempting to remove it
+Window manager warning: Log level 8: Source ID 5420 was not found when attempting to remove it
+
+Thu Mar 24 15:52:12 2016
+ Connections: closed: 0.0.0.0::55941 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 1143
+ SMsgWriter:    copyRect rects 677, bytes 10832
+ SMsgWriter:    hextile rects 9565, bytes 26799305
+ SMsgWriter:    ZRLE rects 11, bytes 144246
+ SMsgWriter:    raw bytes equivalent 152990024, compression ratio 5.678169
+
+Thu Mar 24 16:06:18 2016
+ Connections: closed: 0.0.0.0::37961 (read: Connection timed out (110))
+ SMsgWriter:  framebuffer updates 199
+ SMsgWriter:    raw rects 1, bytes 17292
+ SMsgWriter:    copyRect rects 21, bytes 336
+ SMsgWriter:    hextile rects 732, bytes 4156400
+ SMsgWriter:    ZRLE rects 2, bytes 4795
+ SMsgWriter:    raw bytes equivalent 42716196, compression ratio 10.222886
+
+Thu Mar 24 19:33:28 2016
+ Connections: accepted: 0.0.0.0::7327
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Mar 24 19:33:30 2016
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian bgr888
+
+Thu Mar 24 19:33:31 2016
+ VNCSConnST:  Client pixel format depth 8 (8bpp) colour-map
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Mar 24 19:35:39 2016
+ Connections: closed: 0.0.0.0::7327 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 750
+ SMsgWriter:    copyRect rects 798, bytes 12768
+ SMsgWriter:    hextile rects 3492, bytes 7429704
+ SMsgWriter:    ZRLE rects 2, bytes 52609
+ SMsgWriter:    raw bytes equivalent 66827718, compression ratio 8.931425
+
+Thu Mar 24 19:58:39 2016
+ Connections: accepted: 0.0.0.0::8490
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Mar 24 19:58:42 2016
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian bgr888
+ VNCSConnST:  Client pixel format depth 8 (8bpp) colour-map
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Mar 24 20:06:43 2016
+ Connections: closed: 0.0.0.0::8490 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 81
+ SMsgWriter:    hextile rects 387, bytes 9181313
+ SMsgWriter:    ZRLE rects 2, bytes 30704
+ SMsgWriter:    raw bytes equivalent 29842590, compression ratio 3.239528

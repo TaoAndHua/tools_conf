@@ -1,0 +1,42 @@
+""""""""""""""""""""""""""""""""""""
+" vim 
+""""""""""""""""""""""""""""""""""""
+set tabstop=4
+set shiftwidth=4
+set expandtab
+"set t_Co=256
+
+set number
+map <F2> :set number!<CR>
+
+set incsearch
+map <F8> :set hlsearch!<CR>
+
+set cursorline
+hi CursorLine cterm=NONE ctermbg=darkred ctermfg=white
+
+""""""""""""""""""""""""""""""""""""
+" NERDTree
+""""""""""""""""""""""""""""""""""""
+map <F3> :NERDTreeToggle<CR>
+
+""""""""""""""""""""""""""""""""""""
+" Tag list (ctags)
+""""""""""""""""""""""""""""""""""""
+let Tlist_Ctags_Cmd = 'ctags'
+let Tlist_Show_One_File = 1
+let Tlist_Exit_OnlyWindow = 1
+let Tlist_Use_Right_Window = 1
+map <F4> :TlistToggle<CR>
+
+""""""""""""""""""""""""""""""""""""
+" MiniBufExplorer
+""""""""""""""""""""""""""""""""""""
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplSplitBelow = 1
+
+""""""""""""""""""""""""""""""""""""
+" tags for coder
+""""""""""""""""""""""""""""""""""""
+" ctags -R --languages=c++ --langmap=c++:+.inl -h +.inl --c++-kinds=+px --fields=+aiKSz --extra=+q
+set tags+=~/workspace/linux-gdb/linux/tags
